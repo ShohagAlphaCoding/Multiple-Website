@@ -6,9 +6,10 @@
 nav{
     display: flex;
     justify-content: space-around;
-    background-color: #c59b0fe0;
+    background-color: #c59b0f;
     color: #fff;
     padding: 10px 0;
+    border-bottom: 2px solid #14a338;
 }
 nav h2{
     font-weight: bold;
@@ -30,7 +31,42 @@ nav ul li a{
     transition: 0.5s;
 }
 nav ul li a:hover{
-    background-color: #000000;
+    background-color: #00000060;
     color: red;
     border-radius: 5px;
+}
+
+/* hero area code  */
+
+header{
+    background-image: url("images/website\ banner.jpg");
+    padding: 200px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.search-prents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-prents i{
+    color: #ff0000;
+    background-color: green;
+    font-size: 20px;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -10px;
+}
+.search-prents input{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 20px;
 }
