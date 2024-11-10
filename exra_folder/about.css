@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    padding-bottom: 40px;
+}
 /* navbar here  */
 nav{
     display: flex;
@@ -61,6 +64,7 @@ nav ul li a:hover{
     box-shadow: 10px 10px 5px grey;
     border-radius: 10px;
     justify-content: space-between;
+    
 }
 .about-text h2{
     font-size: 80px;
