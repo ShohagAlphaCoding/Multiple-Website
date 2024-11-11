@@ -76,7 +76,11 @@ nav ul li a:hover{
 .single-blog{
     box-shadow: 5px 5px 5px 5px gray;
     border-radius: 5px;
+    transition: 0.5s;
     
+}
+.single-blog:hover{
+    transform: scale(1.05);
 }
 .single-div-text{
     padding: 20px 30px;
